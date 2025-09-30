@@ -1,0 +1,105 @@
+## .NET Build Artifacts
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]ld/
+[Ll]ogs/
+
+## JetBrains Rider/IDEs
+.idea/
+*.sln.iml
+*.DotSettings.user
+_ReSharper*/
+[Rr]e[Ss]harper*/
+*.resharper
+*.resharper.user
+
+## Visual Studio (if team uses it)
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+!packages/build/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+
+## Build Results
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+
+## Test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+
+## Publish Profiles
+PublishProfiles/
+*.pubxml
+*.publishproj
+
+## ASP.NET/Web
+wwwroot/lib/
+App_Data/
+*.log
+*.config.local
+appsettings.Development.json
+appsettings.Local.json
+
+## Secrets & Credentials
+secrets.json
+*.keystore
+*.pfx
+*.snk
+*.key
+*.pem
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## SQLite/Local DBs
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+
+## Rider/VS Code
+.vscode/
+*.code-workspace
+
+## Temporary Files
+*.tmp
+*.temp
+*.swp
+*~
