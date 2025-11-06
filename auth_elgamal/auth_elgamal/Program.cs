@@ -7,7 +7,7 @@ Console.WriteLine("=== Day 16: End-to-end demo with configurable settings ===\n"
 
 var storage = new InMemoryUserStorage();
 var settings = new AuthSettings { ChallengeTtl = TimeSpan.FromMinutes(2), DefaultKeySizeBits = 512 };
-var service = new AuthenticationService(storage, settings);
+var service = new AuthenticationService(storage, settings, new ConsoleAuthLogger());
 
 var client = new AuthenticationClient(service);
 
